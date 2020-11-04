@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const goods = require('./../models/goods')
+const goods = require('../models/goodsModel')
 router.post('/queryGoodsById', (res, req) => {
   const param = res.body
   if (param.id) {

@@ -2,12 +2,12 @@
  * @Author: HuangZhaoda
  * @Date: 2020-10-27 14:00:06
  * @Last Modified by: HuangZhaoda
- * @Last Modified time: 2020-11-04 09:35:47
+ * @Last Modified time: 2020-11-04 15:08:04
  * @desc 用户模块路由
  */
 
 const express = require('express')
-const user = require('./../models/user')
+const user = require('../models/userModel')
 
 const router = express.Router()
 

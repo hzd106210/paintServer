@@ -1,4 +1,4 @@
-const user = require('./../models/user')
+const user = require('../models/userModel')
 
 class UserService {
   static login(param) {
